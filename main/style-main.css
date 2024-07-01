@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+   
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color:#7A9D89;
+}
+
+img {
+  border-radius: 25px;
+}
+/*主标题*/
+.mainLogo {
+  position: absolute;
+  float:left;
+  width:100%;
+  left: 250px;
+  top: 1px;
+  margin: 0;
+}
+/*导航栏*/
+.navigation {   
+   width: 1000px;   
+  height: 35px;   
+  background-color: #CFC095; 
+  position: absolute;
+  left: 250px;
+  top:201px;
+  border-radius: 15px;
+}
+
+a:link,a:visited,a:active {  
+  text-decoration: none; 
+  color: white;   
+}
+
+#navigation a:hover {  
+  color: #92539B;
+}
+
+#navigation a {  
+  width: 200px;  
+  height: 17px;
+}
+
+td {     
+  line-height: 35px;   
+  font-size: 18px;  
+  text-align: center; 
+  vertical-align: middle;
+}
+/*2048入口背景*/
+.u2048Backg {
+  position: absolute;
+  left: 250px;
+  top: 236px;
+}
+/*2048跳转入口*/
+.u2048 {
+  position: absolute;
+  top:350px;
+  left:410px;
+  width: 100px;
+  height:50px;
+}
+/*五子棋背景*/
+.uwzqBackg {
+  position: absolute;
+  left: 250px;
+  top:786px;
+  height: 550px;
+  width: 1000px;
+  background-color: #EAD9AD;
+  border-radius: 15px;
+}
+/*五子棋跳转入口*/
+.uwzq {
+  position: absolute;
+  top:450px;
+  left:390px;
+  width: 100px;
+  height:50px;
+}
+/*页脚*/
+.end {
+  position: absolute;
+  left:250px;
+  top:1336px;
+  width:1000px;
+  height:25px;
+  text-align: center;
+  background-color:#CFC095;
+  border-radius: 15px;
+}

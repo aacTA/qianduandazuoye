@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E9D8AC;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.Print {/*统分*/
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  font-size: 30px;
+  height: 50px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#F8B358 ;
+  border-radius: 15px;
+}
+
+.GridContainer {/*盘子*/
+  position: relative; 
+  display: grid;
+  background-color:#eee;
+  border: 10px solid antiquewhite;
+  padding: 0px;
+  grid-template-columns: repeat(4, 150px);
+  grid-gap: 0px;
+  z-index: 0;
+}
+
+.cell {/*小格子*/
+  border-radius: 5px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  height: 150px;
+  position: inherit;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.Num2 {
+  z-index: 2;
+  background-color: #eee4da;
+}
+
+.Num4 {
+  z-index: 2;
+  background-color: #ede0c8;
+}
+
+.Num8 {
+  z-index: 2;
+  background-color: #f2b179;
+}
+
+.Num16 {
+  z-index: 2;
+  background-color: #f59563;
+}
+
+.Num32 {
+  z-index: 2;
+  background-color: #f67c5f;
+}
+
+.Num64 {
+  z-index: 2;
+  background-color: #f65e3b;
+}
+
+.Num128 {
+  z-index: 2;
+  background-color: #edcf72;
+}
+
+.Num256 {
+  z-index: 2;
+  background-color: #edcc61;
+}
+
+.Num512 {
+  z-index: 2;
+  background-color: #edc850;
+}
+
+.Num1024 {
+  z-index: 2;
+  background-color: #edc53f;
+}
+
+.Num2048 {
+  z-index: 2;
+  background-color: #edc22e;
+}
+
+.decorate1 {
+  float:left;
+  left: 10%;
+  top: 9%;
+  margin: 0; 
+  position: absolute;
+  
+}
+
+.decorate2 {
+  position: absolute;
+  float:left;
+  right: 18%;
+  top: 30%;
+  margin: 0;
+}
+
+.decorate3 {
+  position: absolute;
+  float:left;
+  right: 18%;
+  top: 48%;
+  margin: 0;
+}
+
+.decorate4 {
+  position: absolute;
+  float:left;
+  right: 18%;
+  top: 66%;
+  margin: 0;  
+}
+
+#b {
+  border: none;
+  background-color: #E9D8AC;
+}
+
+.tip {
+  position: absolute;
+  float:left;
+  left:10%;
+  top:55%;
+  width: 15%;
+  height: 5%;
+  text-align: center;
+}
